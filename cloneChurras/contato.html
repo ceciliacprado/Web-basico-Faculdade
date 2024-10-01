@@ -1,95 +1,84 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/estilo.css">
-    <link rel="shortcut icon" href="./favicon.png" type="image/png">
-    <title>Contato - Clone Site Batel Grill</title>
+    <link rel="shortcut icon" href="img/favicon.png" type="image/png">
+    <title>CONTATO: Clone site batel grill</title>
     <style>
-        #sec_form {
-            width: 70%;
-            margin-left: auto;
-            margin-right: auto
-        }
-
-        fieldset {
-            text-align: left;
-        }
+        #sec_form, #sec_resultados{ 
+    display: inline-block;
+    vertical-align: top;
+    width: 40%;
+    height: 400px;
+    border: 1px solid #888;
+    padding: 10px;
+    /*margin: 0 auto 0 auto;*/
+}
     </style>
 </head>
-
 <body>
     <header>
-
         <nav id="nav_main">
 
             <div id="nav_esq">
                 <a href="index.html">Home</a>
-                -
-                <a href="sobre.html">Sobre nós</a>
-                -
-                <a href="cardapio.html" target="_blank">Cardápio</a>
-                -
+                <a href="sobre.html">Sobre Nós</a>
+                <a href="cardapio.html">Cardápio</a>
                 <a href="precos.html">Preços</a>
-                -
-                <a href="">Gift Card</a>
+                <a href="gift.html">Gift Card</a>
             </div>
-            <div id="nav_logo"></div>
+            <div id="nav_logo">
+
+            </div>
             <div id="nav_dir">
                 <a href="faq.html">Faq</a>
-                -
                 <a href="reservas.html">Reservas</a>
-                -
-                <a href="contato.html" target="_blank">Contato</a>
-                -
-                <a href="trabalhe.html">Trabalhe conosco</a>
+                <a href="contato.html" class="menu_atual">Contato</a>
+                <a href="trabalhe.html">Trabalhe Conosco</a>
             </div>
 
         </nav>
-
     </header>
     <main>
 
-        <h1>Contato</h1>
+        <h1 id="tituloP">Contato</h1>
+
+        <div>
+            <button onclick="">Copia e cola</button>
+        </div>
 
         <section id="sec_form">
             <form action="" method="post">
                 <fieldset>
                     <legend>Dados Pessoais</legend>
-
-                    <p>
-                        <label for="nome">Nome:</label>
-                        <input type="text" id="nome" name="nome">
-                    </p>
-
-                    <p>
-                        <label for="email">Email:</label>
-                        <input type="email" name="email" id="email">
-                    </p>
-
-                    <p>
-                        <label for="senha">Senha:</label>
-                        <input type="password" name="senha" id="senha">
-                    </p>
-
-                    <button>Enviar</button>
+                 <p><label for="nome">Nome:</label>
+                    <input type="text" name="nome" id="nome" required></p>
+                    <p><label for="email">Email:</label>
+                        <input type="email" name="email" id="email"></p>
+                 <p><label for="senha">Senha:</label>
+                    <input type="password" name="senha" id="senha" required></p>
+                    <button type="submit">Enviar o form</button>
                 </fieldset>
                 <fieldset>
-                    <legend>Outros dados</legend>
+                    <legend>Outros Dados</legend>
                 </fieldset>
                 <fieldset>
                     <legend>Mensagem</legend>
                 </fieldset>
+                <button onclick="altera()">Altera texto do titulo</button>
             </form>
         </section>
 
-    </main>
+        <section id="sec_resultados">
 
+        </section>
+
+    </main>
     <footer>
 
     </footer>
+    <script src="./js/codigos2.js"></script>
 </body>
-
 </html>
