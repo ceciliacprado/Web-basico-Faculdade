@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css.css">
+    <title>Registro de Alunos</title>
+</head>
+<header>
+   <img class="logo" src="icons8-lápis-64.png" alt="">
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="sobre.html">Sobre</a></li>
+        <li><a href="alunos.html">Alunos</a></li>
+    </ul>
+</header>
+<body>
+    <h1>Registro de alunos - Formulário</h1>
+    <h3>Faça o registro dos alunos preenchendo as informações do formulário abaixo!</h3>
+
+    <p class="passos">Pssos para registrar os alunos: </p>
+    <ul class="list5">
+        <li>Passo 1 - Entre no site Registro de alunos.</li>
+        <li>Passo 2 - Abra a página Home com o formulário para registro.</li>
+        <li>Passo 3 - Preencha o formulário com os dados do aluno.</li>
+        <li>Passo 4 - confira as informaões para que nada fique errado.</li>
+        <li>Passo 5 - clique no botão "Registrar aluno" para enviar o formulário.</li>
+    </ul>
+
+    <section id="form">
+        <form action="" method="post">
+            <fieldset>
+                <legend>Dados Pessoais do Aluno</legend>
+             <p><label for="nome">Nome Completo:</label>
+                <input type="text" name="nome" id="nome" required></p>
+
+                <p><label for="email">Email:</label>
+                    <input type="email" name="email" id="email"></p>
+
+             <p><label for="rgm">RGM:</label>
+                <input type="number" name="rgm" id="rgm" required></p>
+
+                <p><label for="curso">Curso:</label>
+                    <input type="text" name="curso" id="curso" required></p>
+
+                <button type="submit">Registrar Aluno</button>
+            </fieldset>
+        </form>
+    </section>
+
+    <button class="ler" id="lerDados">Ler dados</button>
+    <button class="verifica" id="verificaNumero">Verifica número</button>
+
+    <p class="txtp">A página de Home é onde você encontra o Formulário para o registro de alunos, a página de alunos é onde você encontra o nome dos alunos registrados e a página sobre são as infromações sobre o site. obs: é tudo ficticio foi invetado apenas apara fazer a prova :)</p>
+
+</body>
+<script src="javascripts.js"></script>
+<footer>
+        <small>Registro de alunos - formulário</small>
+        <br>
+        <small>Telefone: 41 95874125</small>
+        <br>
+        <small>Email: registroalunos@gmail.com</small>
+        <br>
+        <small>Entre em contato com a gente!</small>
+</footer>
+</html>
