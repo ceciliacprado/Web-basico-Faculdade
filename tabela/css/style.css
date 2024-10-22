@@ -1,0 +1,31 @@
+body{ font-family: sans-serif; }
+table{
+border-collapse: collapse;
+border: 1px solid #ccc;
+width: 500px;
+}
+thead th{
+background-color: #266262;
+height: 30px;
+color: #fff;
+font-size: 16pt;
+text-transform: uppercase;
+}
+tbody td {
+height: 30px;
+border: 1px solid #ccc;
+text-align: center;
+}
+tfoot tr{
+height: 30px;
+vertical-align: bottom;
+}
+tbody tr:nth-child(2n) {
+background-color: #cff;
+}
+tbody tr:nth-child(2n+1) {
+background-color: #eff;
+}
+tbody tr:hover:nth-child(1n+1) {
+background-color: #ccc;
+}
