@@ -1,0 +1,82 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+    /* background-color: chocolate; */
+}
+table, tr, td{
+    border: 1px solid grey;
+    border-collapse: collapse;
+    width: 500px;
+}
+td{
+    padding: 5px;
+}
+#menu_lateral{
+    position: sticky;
+    top: 15%;
+    width: 150px;
+    height: 500px;
+    background-color: lightgrey;
+    float: left;
+    margin-right: 50px;
+    font-size: 0.8em;
+    text-align: center;
+    padding-top: 10px;
+}
+#menu_lateral a:hover{
+    /* padding: auto; */
+    /* margin: 5px 0px; */
+    background-color: rgb(255, 149, 149);
+}
+header{
+    margin-left: auto;
+    margin-right: auto;
+    width: 1000px;
+    height: 100px;
+    background-color: brown;
+    /* clear: both; */
+}
+main{
+    width: 1000px;
+    height: 800px;
+    margin: 10px 0px;
+    background-color: rgb(158, 107, 107);
+}
+#principal{
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: aquamarine;
+    display: flex;
+    height: 2500px;
+}
+#galeria{
+    width: 100%;
+    height: 1500px;
+    margin: 10px 0px;
+    background-color: rgb(156, 145, 145);
+    margin-left: auto;
+    margin-right: auto;
+}
+footer{
+    width: 1000px;
+    height: 700px;
+    margin: 10px 0px;
+    background-color: rgb(156, 145, 145);
+    margin-left: auto;
+    margin-right: auto;
+}
+/* tablet */
+@media (max-width: 1100px) {
+    footer, header, main{
+        width: 700px;
+    }
+}
+
+/* smart */
+@media (max-width: 800px) {
+    footer, header, main{
+        width: 400px;
+    }
+}
