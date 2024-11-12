@@ -1,0 +1,156 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+header {
+    margin: 15px;
+    list-style: none;
+    display: flex; 
+    align-items: center;
+    justify-content: space-between;
+}
+ul {
+    list-style: none;
+    display: flex; 
+    align-items: center;
+}
+
+ul li {
+    margin-right: 20px; 
+}
+
+img {
+    width: 60px; 
+    height: auto; 
+    margin-right: 20px;
+}
+
+ul li a {
+    text-decoration: none; 
+    color: #000; 
+    font-weight: bold;
+}
+
+ul li a:hover {
+    color: #007bff; 
+}
+
+#barra {
+    background-color: #000;
+    margin: 0px;
+}
+
+#elementos1 {
+    margin-right: 200px;
+    padding: 30px;
+}
+
+#textoEvideo {
+    margin: 50px;
+    list-style: none;
+    display: flex; 
+    align-items: center;
+    justify-content: space-between;
+}
+
+#video {
+    margin: 10px;
+    width: 150%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+#textos {
+    margin-left: 70px;
+    margin-right: 70px;
+    list-style: none;
+    display: flex; 
+    align-items: center;
+    justify-content: space-between;
+}
+
+#textos div {
+    margin-right: 20px;
+}
+
+#textos img {
+    width: 200px;
+    height: 100px;
+}
+
+#tabela {
+    margin-top: 50px;
+    background-color: #9f9f9f;
+}
+
+table {
+    margin: 0 auto;
+    padding: 30px;
+}
+
+tbody {
+    margin-bottom: 20px;
+}
+
+caption {
+    margin: 10px;
+}
+
+th {
+    background-color: #3498db; 
+    color: #fff; 
+    padding: 12px 15px; 
+    text-align: center; 
+    font-size: 1.1rem; 
+}
+
+td {
+    padding: 10px 15px; 
+    text-align: center; 
+    border: 1px solid #ddd; 
+    color: #333; 
+    background-color: #f9f9f9; 
+}
+
+td a {
+    color: black;
+    text-decoration: none; 
+}
+table, th, td {
+    border: 1px solid #ddd;
+}
+
+#email {
+    background-color: #5f5f5f; 
+    padding: 50px 20px;
+    text-align: center;
+}
+
+#email div {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 30px;
+}
+
+#email h1 {
+    color: #ffffff;
+    margin-bottom: 15px;
+}
+
+#email p {
+    color: #ffffff;
+    margin-bottom: 30px;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+textarea {
+    height: 150px;
+}
